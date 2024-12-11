@@ -4,10 +4,10 @@ echo "Veillez saisi l'emplacement de stockage"
 
 #récupération de la saisie
 read EMPLACEMENT
+mkdir $EMPLACEMENT
 
 #déplacement
 cd $EMPLACEMENT 
-mkdir Test
 touch collection.txt
 #Affichage d'un message
 echo "Veillez donner le nom du film à ajouter"
