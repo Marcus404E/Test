@@ -4,7 +4,7 @@ echo "Veillez saisi l'emplacement de stockage"
 
 #récupération de la saisie
 read EMPLACEMENT
-if [ -d $EMPLACEMENT]
+if [ -d $EMPLACEMENT ]
 then
     echo "Le dossier existe déjà"
     #verifier si le dossier existe déjà
@@ -12,8 +12,6 @@ else
     echo "Le dossier n'existe pas, on crée le dossier"
     mkdir $EMPLACEMENT
 fi
-WHILE [ ]
-    END
 
 #déplacement
 cd $EMPLACEMENT 
