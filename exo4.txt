@@ -1,0 +1,85 @@
+    1  hisstory
+    2  history
+    3  git status
+    4  git add index.html
+    5  git add css js
+    6  git commit -m 'new'
+    7  status
+    8  git status
+    9  tree
+   10  nano index.html
+   11  git add index.html
+   12  git commit -m 'index modif'
+   13  status
+   14  git status
+   15  tree
+   16  git log
+   17  vim index.html
+   18  git status
+   19  git add index.html
+   20  git status
+   21  git commit -m modif "index.html ajout texte"
+   22  git commit -m "modif index.html ajout texte"
+   23  git status
+   24  git log
+   25  git reset --hard 38930935a6d013b4e961de9c37daf699587d4168
+   26  git log
+   27  git reset --hard bc7289f83e74a6ab9ae6cb161bb3b2fcf58970db
+   28  git log
+   29  cd ..
+   30  clear
+   31  git clone https://github.com/Marcus404E/Test.git
+   32  cd Test
+   33  tree
+   34  touch test.txt
+   35  git add test.txt
+   36  git commit -m 'initial commit'
+   37  git push origin main
+   38  touch local.txt
+   39  git add local.txt
+   40  git commit -m 'ajoute local.txt'
+   41  git pull origin main
+   42  git push origin main
+   43  git log
+   44  vscode 
+   45  code .
+   46  clear
+   47  cd ..
+   48  git clone https://github.com/Marcus404E/Test.git
+   49  cd Test
+   50  mkdir app app/controller app/entity app/repository
+   51  touch index.html
+   52  touch package.json
+   53  mkdir public public/css public/js public/media
+   54  git add *
+   55  git commit -m 'arborescence de base'
+   56  git push origin main
+   57  touch app/controller/HomeController.php app/entity/user.php app/repository/UserRepository.php
+   58  git add *
+   59  git commit -m 'ajout fichier dans app'
+   60  touch public/css/main.css public/js/app.js public/media.profil.png
+   61  touch public/media/profil.png
+   62  git add *
+   63  git commit -m 'ajout fichier dans public'
+   64  git push origin main
+   65  rm -r public
+   66  git add *
+   67  git commit -m 'suppression public'
+   68  git add *
+   69  git commit -m 'suppression public'
+   70  git push origin main
+   71  git add/rm public
+   72  git add/rm public/css/main.css public/js/app.js public.media.profil.png public/media/profil.png
+   73  git add *
+   74  git commit -m 'suppression public'
+   75  git commit -a
+   76  git add/rm 
+   77  git add -u
+   78  git commit -m 'suppression public'
+   79  git push origin main
+   80  tree  > structure_projet.txt
+   81  git add structure_projet.txt
+   82  git commit -m 'strucutre Tree'
+   83  git push origin main
+   84  history
+   85  history >exo4.txt
